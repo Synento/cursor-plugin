@@ -1,0 +1,15 @@
+{
+  "author": {
+    "email": "hello@synento.com",
+    "name": "Synento"
+  },
+  "description": "Agent-native video: add live video calls that record themselves to your app, then let the agent prove camera and microphone media actually arrived.",
+  "displayName": "Synento",
+  "homepage": "https://synento.com/agents",
+  "keywords": ["video", "live video", "recording", "webcodecs", "mcp", "synento"],
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "name": "synento",
+  "repository": "https://github.com/Synento/cursor-plugin",
+  "version": "1.0.0"
+}

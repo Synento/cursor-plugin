@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "synento": {
+      "url": "https://api.synento.com/mcp"
+    }
+  }
+}
