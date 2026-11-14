@@ -41,6 +41,10 @@ write the integration, and then prove it works by reading the recording back.
 5. Call `verify_session` on that session id. It reads the recording back and
    reports, per participant, which tracks actually carried media.
 
+Transcripts: once a session has ended, `request_transcript` then
+`get_transcript` return what each participant said, per speaker and language.
+Transcription is billed per minute of speech, so ask before requesting one.
+
 ## Rules
 
 - Do not tell the user the integration works until `verify_session` passes.
