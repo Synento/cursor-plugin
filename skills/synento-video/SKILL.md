@@ -36,7 +36,8 @@ write the integration, and then prove it works by reading the recording back.
    - the app's server creates sessions and mints connection tokens with
      `@synento/node`;
    - the browser joins with `@synento/client`, using only the short-lived
-     connection token.
+     connection token; an iOS or Android app joins with
+     `@synento/react-native` (read `get_guide("guides/react-native")`).
 4. Run the app and have it publish camera and microphone into a session.
 5. Call `verify_session` on that session id. It reads the recording back and
    reports, per participant, which tracks actually carried media.
